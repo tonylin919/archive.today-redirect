@@ -1,0 +1,31 @@
+name: Webpack Build for UserScript
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Webpack Build
+      run: npm run build
+
+    - name: Archive Compiled UserScript
+      uses: actions/upload-artifact@v3
+      with:
+        name: archive-today-redirect-user-script
+        path: ./archive.today-redirect.user.js

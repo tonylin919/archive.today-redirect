@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "es6",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"*": [
+				"types/*",
+				"node_modules/*"
+			]
+		},
+		"allowJs": true,
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"removeComments": false,
+		"typeRoots": [
+			"./node_modules/@types",
+			"./types"
+		],
+		"lib": [
+			"dom",
+			"es2015"
+		]
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}

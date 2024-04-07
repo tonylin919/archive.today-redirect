@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name         archive.today-redirect
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  The archive.today-redirect UserScript is designed to enhance your browsing experience by automatically redirecting specified domains to their archived versions on archive.today.
+// @author       @tonylin919
+// @match        https://archive.ph/*
+// @match        https://www.nytimes.com/*
+// @match        https://www.barrons.com/*
+// @match        https://fortune.com/*
+// @match        https://www.wsj.com/*
+// @exclude      /^https:\/\/www\.nytimes\.com\/$/
+// @exclude      /^https:\/\/www\.nytimes\.com\/[^\/]+\/[^\/]+\/?$/
+// @exclude      /^https:\/\/www\.barrons\.com\/$/
+// @exclude      /^https:\/\/fortune\.com\/$/
+// @exclude      /^https:\/\/www\.wsj\.com\/$/
+// @grant        GM_xmlhttpRequest
+// @run-at       document-start
+// ==/UserScript==
