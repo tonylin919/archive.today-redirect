@@ -14,7 +14,7 @@ This script is compatible with browser extensions such as Tampermonkey, Violentm
 
 ## Installation
 
-1. Ensure you have Tampermonkey, Violentmonkey, or Greasemonkey installed in your browser.
+1. Ensure you have [Tampermonkey](https://www.tampermonkey.net/), [Violentmonkey](https://violentmonkey.github.io/), or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) installed in your browser.
 2. Click on the raw version of the [`archive.today-redirect.user.js`](https://raw.githubusercontent.com/tonylin919/archive.today-redirect/main/archive.today-redirect.user.js) file in this GitHub repository.
 3. Your Tampermonkey/Violentmonkey/Greasemonkey extension should prompt you to install the UserScript. Click "Install" to proceed.
 4. Once installed, the script will automatically start working based on the configured domains.
