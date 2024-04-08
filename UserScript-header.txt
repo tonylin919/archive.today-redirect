@@ -9,11 +9,13 @@
 // @match        https://www.barrons.com/*
 // @match        https://fortune.com/*
 // @match        https://www.wsj.com/*
+// @match        https://www.bloomberg.com/*
 // @exclude      /^https:\/\/www\.nytimes\.com\/$/
 // @exclude      /^https:\/\/www\.nytimes\.com\/[^\/]+\/[^\/]+\/?$/
 // @exclude      /^https:\/\/www\.barrons\.com\/$/
 // @exclude      /^https:\/\/fortune\.com\/$/
 // @exclude      /^https:\/\/www\.wsj\.com\/$/
+// @exclude      /^https:\/\/www\.bloomberg\.com\/$/
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // ==/UserScript==
