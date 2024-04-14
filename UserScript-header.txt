@@ -9,6 +9,11 @@
 // @match        https://www.barrons.com/articles/*
 // @match        https://fortune.com/*
 // @match        https://www.wsj.com/*
+// @match        https://www.bloomberg.com/*
+// @match        https://www.menshealth.com/*
+// @match        https://www.washingtonpost.com/*
+// @match        https://towardsdatascience.com/*
+// @match        https://www.theatlantic.com/*
 // @exclude      /^https:\/\/www\.nytimes\.com(\/[^\/]+){0,2}\/?$/
 // @exclude      /^https:\/\/fortune\.com(?!\/(europe|asia|ranking|company|crypto))(\/[^\/]+){0,2}\/?$/
 // @exclude      /^https:\/\/www\.wsj\.com(\/video\/.*)?(\/news\/types\/obituaries.*)?(\/[^\/]+){0,2}\/?$/
