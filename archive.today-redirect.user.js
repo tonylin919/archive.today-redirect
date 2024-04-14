@@ -6,16 +6,12 @@
 // @author       @tonylin919
 // @match        https://archive.ph/*
 // @match        https://www.nytimes.com/*
-// @match        https://www.barrons.com/*
+// @match        https://www.barrons.com/articles/*
 // @match        https://fortune.com/*
 // @match        https://www.wsj.com/*
-// @match        https://www.bloomberg.com/*
-// @exclude      /^https:\/\/www\.nytimes\.com\/$/
-// @exclude      /^https:\/\/www\.nytimes\.com\/[^\/]+\/[^\/]+\/?$/
-// @exclude      /^https:\/\/www\.barrons\.com\/$/
-// @exclude      /^https:\/\/fortune\.com\/$/
-// @exclude      /^https:\/\/www\.wsj\.com\/$/
-// @exclude      /^https:\/\/www\.bloomberg\.com\/$/
+// @exclude      /^https:\/\/www\.nytimes\.com(\/[^\/]+){0,2}\/?$/
+// @exclude      /^https:\/\/fortune\.com(?!\/(europe|asia|ranking|company|crypto))(\/[^\/]+){0,2}\/?$/
+// @exclude      /^https:\/\/www\.wsj\.com(\/video\/.*)?(\/news\/types\/obituaries.*)?(\/[^\/]+){0,2}\/?$/
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // ==/UserScript==
